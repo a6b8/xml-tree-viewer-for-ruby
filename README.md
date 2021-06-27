@@ -1,14 +1,30 @@
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/Headline.svg" height="55px" name="headline" alt="# Headline">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/Headline.svg" height="55px" name="XML Tree Viewer" alt="# Xml Tree Viewer">
 </a>
-
-Short Description Text 
 <br>
 <br>
 <br>
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/examples.svg" height="55px" name="examples" alt="Examples">
 </a>
+
+### detail
+```ruby
+    require 'xml_tree_viewer'
+    xml = XmlTreeViewer.helper()
+    XmlTreeViewer.generate( xml, :detail )
+```
+
+
+### short 
+```ruby
+    require 'xml_tree_viewer'
+    xml = XmlTreeViewer.helper()
+    XmlTreeViewer.generate( xml, :short )
+```
+
+
+
 <br>
 <br>
 <br>
@@ -16,15 +32,15 @@ Short Description Text
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/table-of-contents.svg" height="55px" name="table-of-contents" alt="Table of Contents">
 </a>
 <br>
+
 1. [Quickstart](#quickstart)<br>
 2. [Parameters](#parameters)<br>
-3. [Options](#options)<br>
-4. [Contributing](#contributing)<br>
-5. [Limitations](#limitations)<br>
-6. [Credits](#credits)<br>
-7. [License](#license)<br>
-8. [Code of Conduct](#code-of-conduct)<br>
-9. [Support my Work](#support-my-work)<br>
+3. [Contributing](#contributing)<br>
+4. [Limitations](#limitations)<br>
+5. [Credits](#credits)<br>
+6. [License](#license)<br>
+7. [Code of Conduct](#code-of-conduct)<br>
+8. [Support my Work](#support-my-work)<br>
 
 <br>
 <br>
@@ -33,7 +49,10 @@ Short Description Text
 </a>
 
 ```ruby
+require '../lib/xml_tree_viewer'
 
+xml = XmlTreeViewer.helper()
+XmlTreeViewer.generate( xml, :detail )
 ```
 <br>
 <br>
@@ -44,7 +63,7 @@ Short Description Text
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'test'
+gem 'xml_tree_viewer'
 ```
 
 And then execute:
@@ -53,7 +72,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install test
+    $ gem install xml_tree_viewer
 
 
 On Rubygems: 
@@ -66,14 +85,16 @@ On Rubygems:
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/methods.svg" height="55px" name="methods" alt="Methods">
 </a>
 
-### .example()
+### .helper()
 ```ruby
-    require 'local_path_builder'
+    xml = XmlTreeViewer.helper()
+```
 
-    hash = Template.example( 
-        headline, 
-        console_mode,  
-        options 
+### .generate()
+```ruby
+    XmlTreeViewer.generate( 
+        xml, 
+        mode 
     )
 ```
 
@@ -81,18 +102,12 @@ On Rubygems:
 **Input**
 | **Type** | **Required** | **Description** | **Example** | **Description** |
 |------:|:------|:------|:------|:------| 
-| **headline** | ```String``` | Yes | "Test" | Define path structure |
-| **console mode** | ```Symbol``` | Yes | ```:hash``` | Set test console output mode. Use ```:silent```, ```:hash```, ```:path``` or ```:both``` |
-| **salt** | ```String``` | No | ```123``` | Use test salt to create unique filenames. |
+| **xml** | ```String``` | Yes | "Test" | Define path structure |
+| **mode** | ```Symbol``` | Yes | ```:detail``` | Set console mode. Use ```:detail```, ```:short``` or ```:silent``` |
 
 **Return**<br>
-Hash    
-<br>
-<br>
-<br>
-<a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/options.svg" height="55px" name="options" alt="Options">
-</a>
+Boolean
+  
 <br>
 <br>
 <a href="#table-of-contents">
@@ -106,7 +121,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/x
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/limitations.svg" height="55px" name="limitations" alt="Limitations">
 </a>
-- Test
+- Tested for Rss and Atom Feeds.
 <br>
 <br>
 <br>
@@ -141,49 +156,3 @@ Everyone interacting in the xml-tree-viewer-for-ruby project's codebases, issue 
 </a>
     
 Donate by [https://www.paypal.com](https://www.paypal.com/donate?hosted_button_id=XKYLQ9FBGC4RG)
-
-
-
-# XmlTreeViewer
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/xml_tree_viewer`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'xml_tree_viewer'
-```
-
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
-
-    $ gem install xml_tree_viewer
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/xml_tree_viewer. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/xml_tree_viewer/blob/master/CODE_OF_CONDUCT.md).
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-## Code of Conduct
-
-Everyone interacting in the XmlTreeViewer project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/xml_tree_viewer/blob/master/CODE_OF_CONDUCT.md).
