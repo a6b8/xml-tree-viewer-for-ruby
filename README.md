@@ -1,28 +1,56 @@
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/Headline.svg" height="55px" name="XML Tree Viewer" alt="# Xml Tree Viewer">
 </a>
-<br>
+
+A .xml string will do up to a easy readable tree strcuture for terminal output.
+
 <br>
 <br>
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/examples.svg" height="55px" name="examples" alt="Examples">
 </a>
 
-### detail
+
+### Detail
+**Code**
 ```ruby
     require 'xml_tree_viewer'
     xml = XmlTreeViewer.helper()
     XmlTreeViewer.generate( xml, :detail )
 ```
+**Output**
+```ruby
+TREE OVERVIEW
+    employees
+    doc.css('employees')
+    ┗━  employee
+        doc.css('employees > employee:nth-of-type(1)')
+        ┗━  fullname
+            doc.css('employees > employee:nth-of-type(1) > fullname')
+    ┗━  employee
+        doc.css('employees > employee:nth-of-type(2)')
+        ┗━  fullname
+            doc.css('employees > employee:nth-of-type(2) > fullname')
+```
 
 
-### short 
+### Short 
+**Code**
 ```ruby
     require 'xml_tree_viewer'
     xml = XmlTreeViewer.helper()
     XmlTreeViewer.generate( xml, :short )
 ```
 
+**Output**
+```ruby
+TREE OVERVIEW
+    employees
+    ┗━  employee
+        ┗━  fullname
+    ┗━  employee
+        ┗━  fullname
+```
 
 
 <br>
@@ -130,7 +158,14 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/x
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/credits.svg" height="55px" name="credits" alt="Credits">
 </a>
 
-- Test
+This gem depend on following gems:
+
+- nokogiri<br>
+https://rubygems.org/gems/nokogiri
+
+- active_support<br>
+https://rubygems.org/gems/activesupport
+
 <br>
 <br>
 <br>
