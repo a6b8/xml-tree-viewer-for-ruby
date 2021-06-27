@@ -53,7 +53,6 @@ TREE OVERVIEW
 ```
 <br>
 <br>
-<br>
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/table-of-contents.svg" height="55px" name="table-of-contents" alt="Table of Contents">
 </a>
