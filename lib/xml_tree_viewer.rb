@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 require 'nokogiri'
-require 'net/http'
-require "active_support/core_ext/hash/indifferent_access"
 
 require_relative "xml_tree_viewer/version"
 
