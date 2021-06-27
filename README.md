@@ -111,11 +111,13 @@ On Rubygems:
 </a>
 
 ### .helper()
+Output a sample xml string
 ```ruby
     xml = XmlTreeViewer.helper()
 ```
 
 ### .generate()
+Generate xml tree from string input
 ```ruby
     XmlTreeViewer.generate( 
         xml, 
