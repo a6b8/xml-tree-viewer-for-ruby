@@ -104,7 +104,7 @@ Or install it yourself as:
 
 
 On Rubygems: 
-- Gem: https://rubygems.org/gems/test
+- Gem: https://rubygems.org/gems/xml_tree_viewer
 - Profile: https://rubygems.org/profiles/a6b8
 
 <br>
@@ -168,8 +168,6 @@ https://rubygems.org/gems/activesupport
 
 <br>
 <br>
-<br>
-
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/license.svg" height="55px" name="license" alt="License">
 </a>
