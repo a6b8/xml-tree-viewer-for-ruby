@@ -19,7 +19,7 @@ A .xml string will do up to a easy readable tree strcuture for terminal output.
     XmlTreeViewer.generate( xml, :detail )
 ```
 **Output**
-```ruby
+```txt
 TREE OVERVIEW
     employees
     doc.css('employees')
@@ -43,7 +43,7 @@ TREE OVERVIEW
 ```
 
 **Output**
-```ruby
+```txt
 TREE OVERVIEW
     employees
     ┗━  employee
@@ -51,8 +51,6 @@ TREE OVERVIEW
     ┗━  employee
         ┗━  fullname
 ```
-
-
 <br>
 <br>
 <br>
