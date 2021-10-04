@@ -1,22 +1,23 @@
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/Headline.svg" height="55px" name="XML Tree Viewer" alt="# Xml Tree Viewer">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/Headline.svg" height="45px" name="XML Tree Viewer" alt="# Xml Tree Viewer">
 </a>
 
 A .xml string will do up to a easy readable tree strcuture for terminal output.
 
 <br>
-<br>
+
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/examples.svg" height="55px" name="examples" alt="Examples">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/examples.svg" height="38px" name="examples" alt="Examples">
 </a>
 
 
 ### Detail
 **Code**
 ```ruby
-    require 'xml_tree_viewer'
-    xml = XmlTreeViewer.helper()
-    XmlTreeViewer.generate( xml, :detail )
+require 'xml_tree_viewer'
+
+xml = XmlTreeViewer.helper()
+XmlTreeViewer.generate( xml, :detail )
 ```
 **Output**
 ```txt
@@ -37,9 +38,10 @@ TREE OVERVIEW
 ### Short 
 **Code**
 ```ruby
-    require 'xml_tree_viewer'
-    xml = XmlTreeViewer.helper()
-    XmlTreeViewer.generate( xml, :short )
+require 'xml_tree_viewer'
+
+xml = XmlTreeViewer.helper()
+XmlTreeViewer.generate( xml, :short )
 ```
 
 **Output**
@@ -54,8 +56,9 @@ TREE OVERVIEW
 <br>
 <br>
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/table-of-contents.svg" height="55px" name="table-of-contents" alt="Table of Contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/table-of-contents.svg" height="38px" name="table-of-contents" alt="Table of Contents">
 </a>
+
 <br>
 
 1. [Quickstart](#quickstart)<br>
@@ -68,9 +71,9 @@ TREE OVERVIEW
 8. [Support my Work](#support-my-work)<br>
 
 <br>
-<br>
+
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/quickstart.svg" height="55px" name="quickstart" alt="Quickstart">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/quickstart.svg" height="38px" name="quickstart" alt="Quickstart">
 </a>
 
 ```ruby
@@ -79,10 +82,11 @@ require '../lib/xml_tree_viewer'
 xml = XmlTreeViewer.helper()
 XmlTreeViewer.generate( xml, :detail )
 ```
+
 <br>
-<br>
+
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/local-path-builder-for-ruby/readme/headlines/setup.svg" height="55px" name="setup" alt="Setup">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/local-path-builder-for-ruby/readme/headlines/setup.svg" height="38px" name="setup" alt="Setup">
 </a>
 
 Add this line to your application's Gemfile:
@@ -105,9 +109,9 @@ On Rubygems:
 - Profile: https://rubygems.org/profiles/a6b8
 
 <br>
-<br>
+
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/methods.svg" height="55px" name="methods" alt="Methods">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/methods.svg" height="38px" name="methods" alt="Methods">
 </a>
 
 ### .helper()
@@ -136,54 +140,52 @@ Generate xml tree from string input
 Boolean
   
 <br>
-<br>
+
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/contributing.svg" height="55px" name="contributing" alt="Contributing">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/contributing.svg" height="38px" name="contributing" alt="Contributing">
 </a>
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/xml-tree-viewer-for-ruby. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/a6b8/xml-tree-viewer-for-ruby/blob/master/CODE_OF_CONDUCT.md).
-<br>
-<br>
-<br>
-<a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/limitations.svg" height="55px" name="limitations" alt="Limitations">
-</a>
-- Tested for Rss and Atom Feeds.
-<br>
+
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/credits.svg" height="55px" name="credits" alt="Credits">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/limitations.svg" height="38px" name="limitations" alt="Limitations">
+</a>
+
+- Tested for Rss and Atom Feeds.
+
+<br>
+
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/credits.svg" height="38px" name="credits" alt="Credits">
 </a>
 
 This gem depend on following gems:
 
-- nokogiri<br>
-https://rubygems.org/gems/nokogiri
-
-- active_support<br>
-https://rubygems.org/gems/activesupport
+- [nokogiri](https://rubygems.org/gems/nokogiri)<br>
+- [active_support](https://rubygems.org/gems/activesupport)<br>
 
 <br>
-<br>
+
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/license.svg" height="55px" name="license" alt="License">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/license.svg" height="38px" name="license" alt="License">
 </a>
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
 <br>
-<br>
-<br>
+
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/code-of-conduct.svg" height="55px" name="code-of-conduct" alt="Code of Conduct">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/code-of-conduct.svg" height="38px" name="code-of-conduct" alt="Code of Conduct">
 </a>
     
 Everyone interacting in the xml-tree-viewer-for-ruby project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/a6b8/xml-tree-viewer-for-ruby/blob/master/CODE_OF_CONDUCT.md).
+
 <br>
-<br>
-<br>
+
 <a href="#table-of-contents">
-<img href="#table-of-contents" src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/support-my-work.svg" height="55px" name="support-my-work" alt="Support my Work">
+<img href="#table-of-contents" src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/support-my-work.svg" height="38px" name="support-my-work" alt="Support my Work">
 </a>
     
 Donate by [https://www.paypal.com](https://www.paypal.com/donate?hosted_button_id=XKYLQ9FBGC4RG)
