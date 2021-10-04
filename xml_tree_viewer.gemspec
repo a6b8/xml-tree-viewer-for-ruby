@@ -31,6 +31,7 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   spec.add_dependency "nokogiri", "~> 1.11"
+  spec.add_dependency "activesupport", "~> 6.1"
 
   spec
   # For more information and examples about making a new gem, checkout our
