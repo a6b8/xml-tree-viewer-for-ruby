@@ -61,14 +61,16 @@ TREE OVERVIEW
 
 <br>
 
+1. [Examples](#examples)<br>
 1. [Quickstart](#quickstart)<br>
-2. [Parameters](#parameters)<br>
-3. [Contributing](#contributing)<br>
-4. [Limitations](#limitations)<br>
-5. [Credits](#credits)<br>
-6. [License](#license)<br>
-7. [Code of Conduct](#code-of-conduct)<br>
-8. [Support my Work](#support-my-work)<br>
+2. [Setup](#setup)<br>
+3. [Methods](#methods)<br>
+4. [Contributing](#contributing)<br>
+5. [Limitations](#limitations)<br>
+6. [Credits](#credits)<br>
+7. [License](#license)<br>
+8. [Code of Conduct](#code-of-conduct)<br>
+9. [Support my Work](#support-my-work)<br>
 
 <br>
 
