@@ -1,5 +1,5 @@
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/Headline.svg" height="45px" name="headline" alt="# Xml Tree Viewer">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/xml-tree-viewer-for-ruby/readme/headlines/headline.svg" height="45px" name="# Xml Tree Viewer" alt="Xml Tree Viewer">
 </a>
 
 A .xml string will do up to a easy readable tree strcuture for terminal output.
